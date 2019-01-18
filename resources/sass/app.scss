@@ -1,0 +1,21 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.navbar-dark{
+  background-color: #3f3f3f;
+  .navbar-brand{
+    img{
+      max-width: 100px;
+    }
+  }
+}
+.modal-dialog{
+  z-index: 9999;
+}
